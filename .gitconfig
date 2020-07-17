@@ -1,0 +1,17 @@
+[user]
+	name = wangxiaodi02
+	email = puladiao@gmail.com
+[color]
+	ui = auto
+[alias]
+    lg = log --stat
+    lgp = log --stat -p
+    lgg = log --graph
+    lgga = log --graph --decorate --all
+    lgm = log --graph --max-count=10
+    lo = log --oneline --decorate
+    lol = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    loga = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+    log = log --oneline --decorate --graph
+    lola = log --oneline --decorate --graph --all
+    mylog = log --pretty=format:'%h - %an, %ar : %s, %cn'
